@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #d6f5d6; /* Verde pastel */ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.converter-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #4caf50;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-group, .select-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label,
+.select-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b2fab4;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #7cd97c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #6cce6c;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2e7d32;
+}
